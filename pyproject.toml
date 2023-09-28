@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "chinese-anki"
+version = "0.1.0"
+description = ""
+authors = ["Astrid Yu <astrid@astrid.tech>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+genanki = "^0.13.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
